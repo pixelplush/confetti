@@ -1,0 +1,38 @@
+<html>
+  <head>
+    <title>PixelPlush Confetti Overlay by PixelPlush</title>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-6EJRXTPH3Z"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-6EJRXTPH3Z');
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/tinycolor2/dist/tinycolor-min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pinkfluffyunicorn/dist/pinkfluffyunicorn.min.js"></script>
+    <style>
+        * {
+            background-color: transparent;
+            margin: 0;
+            padding: 0;
+            border: 0;
+        }
+    </style>
+  </head>
+  <body>
+    <div id="unicorn-display"></div>
+    <script src="web/confetti.min.js"></script>
+    <script>
+      const params = new URLSearchParams( location.search );
+      setupGame( "PixelPlush Confetti", {
+          path: "https://www.pixelplush.dev"
+      },
+      {
+        channel: params.get( "channel" ),
+        oauth: params.get( "oauth" ),
+        leaves: true,
+      });
+    </script>
+  </body>
+</html>

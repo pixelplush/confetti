@@ -1,0 +1,28 @@
+{
+  "name": "confetti",
+  "version": "1.0.0",
+  "description": "PixelPlush Confetti Stream Overlay",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pixelplush/confetti.git"
+  },
+  "keywords": [
+    "PixelPlush",
+    "confetti",
+    "overlay",
+    "stream"
+  ],
+  "author": "PixelPlush",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pixelplush/confetti/issues"
+  },
+  "homepage": "https://github.com/pixelplush/confetti#readme",
+  "dependencies": {
+    "webwebweb": "^1.4.0"
+  }
+}
