@@ -26,7 +26,8 @@
     <script>
       const params = new URLSearchParams( location.search );
       setupGame( "PixelPlush Confetti", {
-          path: "https://ghcdn.rawgit.org/pixelplush/assets"
+        requires: "addon_pixelconfetti",
+        path: "https://ghcdn.rawgit.org/pixelplush/assets"
       },
       {
         channel: params.get( "channel" ),
